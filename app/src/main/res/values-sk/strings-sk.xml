@@ -610,8 +610,8 @@
     <string name="use_external_blukon_algorithm_summary">Používať externý zdroj na aplikovanie Libre algoritmu. (blukon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">Zobrazovať predikciu</string>
     <string name="use_external_blukon_algorithm">Libre algoritmus z externého zdroja.</string>
-    <string name="calibrate_external_libre_algorithm_summary">Aplikovať kalibrační algoritmus xDripu na OOP dáta.</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP kalibrační algoritmus.</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Aplikovať kalibrační algoritmus xDripu na OOP2 dáta.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 kalibrační algoritmus.</string>
     <string name="libre_use_smoothed_data_summary">Používaj priemer z 5 meraní, pre plynulejšie dáta.</string>
     <string name="libre_use_smoothed_data_title">Vyhladzovať dáta z Libre.</string>
     <string name="retrieve_blukon_history_title">Načítať históriu z Libre</string>

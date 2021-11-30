@@ -614,8 +614,8 @@
     <string name="use_external_blukon_algorithm_summary">Käytä Libren OOP-algoritmia. (Blucon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">Näytä ennakoidut lukemat</string>
     <string name="use_external_blukon_algorithm">Libren OOP-algoritmi.</string>
-    <string name="calibrate_external_libre_algorithm_summary">Kalibroi OOP-tiedot xDripin kalibrointimenetelmillä.</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP-algoritmin kalibrointi</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Kalibroi OOP2-tiedot xDripin kalibrointimenetelmillä.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2-algoritmin kalibrointi</string>
     <string name="libre_use_smoothed_data_summary">Tasoita Libren kuvaajaa laskemalla tulos 5 edellisen lukeman perusteella.</string>
     <string name="libre_use_smoothed_data_title">Tasoita Libren kuvaajaa.</string>
     <string name="retrieve_blukon_history_title">Hae Libren vanhemmat tiedot</string>

@@ -612,8 +612,8 @@
     <string name="use_external_blukon_algorithm_summary">Utilizaţi un algoritm libre în afara procesului. (blukon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">Afișare valori predictive</string>
     <string name="use_external_blukon_algorithm">Algoritm libre în afara procesului.</string>
-    <string name="calibrate_external_libre_algorithm_summary">Aplică metodele de calibrare xDrip pe datele OOP.</string>
-    <string name="calibrate_external_libre_algorithm_title">Algoritm de calibrare in afara procesului Libre (OOP).</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Aplică metodele de calibrare xDrip pe datele OOP2.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">Algoritm de calibrare in afara procesului Libre (OOP2).</string>
     <string name="libre_use_smoothed_data_summary">Utilizați media din 5 puncte pentru a obține date mai aplatizate.</string>
     <string name="libre_use_smoothed_data_title">Aplatizare date libre.</string>
     <string name="retrieve_blukon_history_title">Recuperează istoric Libre</string>

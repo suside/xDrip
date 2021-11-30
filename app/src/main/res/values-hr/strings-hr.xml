@@ -604,8 +604,8 @@
     <string name="aggressive_service_restarts">Agresivno ponovno pokretanja servisa</string>
     <string name="predictive_readings_old">Stara metoda - nije preporučeno! Pokušava prediktirati očitanja svake minute bazirano na nekoliko posljednjih vrijednosti.</string>
     <string name="display_predictive_values">Prikaži prediktirane vrijednosti</string>
-    <string name="calibrate_external_libre_algorithm_summary">Primjeni xDrip metode kalibracije na OOP podatke.</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP algoritam kalibracije.</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Primjeni xDrip metode kalibracije na OOP2 podatke.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 algoritam kalibracije.</string>
     <string name="retrieve_blukon_history_title">Dohvaćanje Libre povijesti</string>
     <string name="retrieve_blukon_history_summary">Dohvaćanje propuštene povijesti s Blukon uređaja pri ponovnom spajanju sa senzorom.</string>
     <string name="interpret_share_raw">Ukoliko se koristi Share, xDrip će prikazati vrijednosti koje su uobičajeno skrivene na primaču (receiveru).</string>

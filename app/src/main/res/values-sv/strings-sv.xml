@@ -614,7 +614,7 @@
     <string name="use_external_blukon_algorithm_summary">Använda en ur processen libre algoritm. (blukon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">Visa förutspådda värden</string>
     <string name="use_external_blukon_algorithm">Av process libre algoritm.</string>
-    <string name="calibrate_external_libre_algorithm_summary">Tillämpa xDrip kalibreringsmetoder på OOP data.</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Tillämpa xDrip kalibreringsmetoder på OOP2 data.</string>
     <string name="libre_use_smoothed_data_summary">Använd i genomsnitt 5 punkter för att få bättre Libre data.</string>
     <string name="libre_use_smoothed_data_title">Utjämna Libre-värden.</string>
     <string name="retrieve_blukon_history_title">Hämta historik för Libre</string>

@@ -589,7 +589,7 @@
     <string name="aggressive_service_restarts">Aggressiv omstart av tjeneste</string>
     <string name="predictive_readings_old">Gammel metode - ikke anbefalt! Forsøker å forutse avlesninger hvert minutt basert på de forrige verdiene.</string>
     <string name="display_predictive_values">Vis antatte verdier</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP algoritme kalibrering.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 algoritme kalibrering.</string>
     <string name="interpret_share_raw">xDrip vil vise verdiene når de normalt er skjult på mottakeren vhis du bruker Share.</string>
     <string name="interpret_raw">Tolk rådata</string>
     <string name="use_infrequent_calibrations">Bruk eldre kalibreringer hvis nødvendig, for eksempel hvis kalibrering ikke blir lagt inn regelmessig.</string>

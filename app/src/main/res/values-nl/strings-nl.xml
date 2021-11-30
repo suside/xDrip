@@ -614,8 +614,8 @@
     <string name="use_external_blukon_algorithm_summary">Gebruik een libre algoritme buiten het proces. (blukon/NFC /LibreAlarm)</string>
     <string name="display_predictive_values">Voorspellende waarden weergeven</string>
     <string name="use_external_blukon_algorithm">Libre algoritme buiten het proces.</string>
-    <string name="calibrate_external_libre_algorithm_summary">XDrip kalibratiemethoden toepassen op OOOP-gegevens.</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP algoritme kalibreren.</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">XDrip kalibratiemethoden toepassen op OOOP-gegevens.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 algoritme kalibreren.</string>
     <string name="libre_use_smoothed_data_summary">Gebruik een gemiddelde van 5 punten om vloeiendere libre gegevens te krijgen.</string>
     <string name="libre_use_smoothed_data_title">Soepele libre gegevens.</string>
     <string name="retrieve_blukon_history_title">Haal Libre-geschiedenis op</string>

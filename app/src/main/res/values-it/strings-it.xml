@@ -614,8 +614,8 @@
     <string name="use_external_blukon_algorithm_summary">Usa un algoritmo OOP. (Libre Bluetooth/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">Mostra Valori Predetti</string>
     <string name="use_external_blukon_algorithm">Algoritmo Libre OOP.</string>
-    <string name="calibrate_external_libre_algorithm_summary">Applica metodi di calibrazione xDrip sui dati OOP.</string>
-    <string name="calibrate_external_libre_algorithm_title">Calibrazione dell\'algoritmo OOP.</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Applica metodi di calibrazione xDrip sui dati OOP2.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">Calibrazione dell\'algoritmo OOP2.</string>
     <string name="libre_use_smoothed_data_summary">Usa una media di 5 punti per ottenere risultati Libre meno rumorosi.</string>
     <string name="libre_use_smoothed_data_title">Liscia dati Libre.</string>
     <string name="retrieve_blukon_history_title">Recupera cronologia Libre</string>

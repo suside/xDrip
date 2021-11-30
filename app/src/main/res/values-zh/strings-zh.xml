@@ -611,8 +611,8 @@
     <string name="use_external_blukon_algorithm_summary">使用瞬感算法插件. (blukon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">显示预测值</string>
     <string name="use_external_blukon_algorithm">外部瞬感算法插件</string>
-    <string name="calibrate_external_libre_algorithm_summary">对 OOP 数据应用 xDrip 校准方法。</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP 算法校准。</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">对 OOP2 数据应用 xDrip 校准方法。</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 算法校准。</string>
     <string name="libre_use_smoothed_data_summary">使用五点平均来得到更平滑的数据</string>
     <string name="libre_use_smoothed_data_title">平滑瞬感数据</string>
     <string name="retrieve_blukon_history_title">检索瞬感历史记录</string>

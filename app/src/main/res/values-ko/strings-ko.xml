@@ -612,8 +612,8 @@
     <string name="use_external_blukon_algorithm_summary">리브레 알고리즘 프로세스를 사용합니다. (blukon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">예측 혈당 표시</string>
     <string name="use_external_blukon_algorithm">리브레 알고리즘 프로세스</string>
-    <string name="calibrate_external_libre_algorithm_summary">OOP 데이터에서 xDrip 보정 방법을 적용</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP 알고리즘 보정</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">OOP2 데이터에서 xDrip 보정 방법을 적용</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 알고리즘 보정</string>
     <string name="libre_use_smoothed_data_summary">더 부드러운 리브레 데이터를 획득하기 위해 5개의 점의 평균을 사용</string>
     <string name="libre_use_smoothed_data_title">부드러운 리브레 데이터</string>
     <string name="retrieve_blukon_history_title">리브레 기록 불러오기</string>

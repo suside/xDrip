@@ -573,8 +573,8 @@
     <string name="repeatedly_restart_collection_service">Opakovaně restartovat kolektor, pokud nejsou přijata data. Povolit pouze pokud nepřijímáte data</string>
     <string name="aggressive_service_restarts">Agresivní restart</string>
     <string name="display_predictive_values">Zobrazovat predikci</string>
-    <string name="calibrate_external_libre_algorithm_summary">Aplikovat xDrip kalibrační algoritmus na OOP data</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP kalibrační algoritmus</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Aplikovat xDrip kalibrační algoritmus na OOP2 data</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP kalibrační algoritmus</string>
     <string name="retrieve_blukon_history_title">Načíst historii z Libre</string>
     <string name="retrieve_blukon_history_summary">Načíst chybějící hodnoty z Blukonu při připojení senzoru</string>
     <string name="interpret_share_raw">Při použití Share, xDrip bude zobrazovat hodnoty na příjímači běžně skryté</string>

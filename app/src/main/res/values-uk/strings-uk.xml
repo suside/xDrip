@@ -613,8 +613,8 @@
     <string name="use_external_blukon_algorithm_summary">Використовувати зовнішній (OOP) алгоритм Libre (Blukon/NFC/LibreAlarm)</string>
     <string name="display_predictive_values">Відображати прогнозні значення</string>
     <string name="use_external_blukon_algorithm">Зовнішній алгоритм Libre</string>
-    <string name="calibrate_external_libre_algorithm_summary">Застосовувати калібрування xDrip+ до даних OOP</string>
-    <string name="calibrate_external_libre_algorithm_title">Калібрування OOP алгоритму</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Застосовувати калібрування xDrip+ до даних OOP2</string>
+    <string name="calibrate_external_libre_2_algorithm_title">Калібрування OOP2 алгоритму</string>
     <string name="libre_use_smoothed_data_summary">Використовувати середнє з 5 точок для згладжування показників Libre</string>
     <string name="libre_use_smoothed_data_title">Згладжувати показників Libre</string>
     <string name="retrieve_blukon_history_title">Отримувати історію Libre</string>

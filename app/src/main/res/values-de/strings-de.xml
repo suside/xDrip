@@ -614,8 +614,8 @@
     <string name="use_external_blukon_algorithm_summary">Verwende externen Libre-Algorithmus (OOP, Bluecon/NFC/LibreAlarm).</string>
     <string name="display_predictive_values">Vorhergesagte Werte anzeigen.</string>
     <string name="use_external_blukon_algorithm">Externer Libre-Algorithmus.</string>
-    <string name="calibrate_external_libre_algorithm_summary">Verwende xDrip-Kalibrierungsmethoden für OOP-Daten.</string>
-    <string name="calibrate_external_libre_algorithm_title">OOP Kalibrierungsalgorithmus.</string>
+    <string name="calibrate_external_libre_2_algorithm_summary">Verwende xDrip-Kalibrierungsmethoden für OOP-Daten.</string>
+    <string name="calibrate_external_libre_2_algorithm_title">OOP2 Kalibrierungsalgorithmus.</string>
     <string name="libre_use_smoothed_data_summary">Verwende Durchschnittswerte von 5 Punkten, um geglättete Libre-Daten zu erhalten.</string>
     <string name="libre_use_smoothed_data_title">Glätte Libre-Daten.</string>
     <string name="retrieve_blukon_history_title">Empfange historische Libre-Daten</string>
