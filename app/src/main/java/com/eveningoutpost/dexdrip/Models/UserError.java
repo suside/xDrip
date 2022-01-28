@@ -142,13 +142,6 @@ public class UserError extends Model {
     }
 
 
-    public static List<UserError> all() {
-        return new Select()
-                .from(UserError.class)
-                .orderBy("timestamp desc")
-                .execute();
-    }
-
     public static List<UserError> deletable() {
         List<UserError> userErrors = new Select()
                 .from(UserError.class)
