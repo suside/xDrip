@@ -25,3 +25,11 @@ jobs:
       run: ./gradlew :app:testProdReleaseUnitTest :wear:testProdReleaseUnitTest
     - name: Check Output
       run: bash ./etc/CheckBuild/check-release.sh test
+    - name: Sign APK
+      run: bash ./etc/SignAPK/signapk.sh
+    - name: Archive APKs
+      uses: actions/upload-artifact@v2
+      with:
+        name: xDrip-release
+        path: |
+          xDrip-*-release.apk
