@@ -11,6 +11,10 @@ buildscript {
         }
     }
 }
+plugins {
+  id "com.diffplug.spotless" version "6.2.1"
+}
+
 apply plugin: 'com.android.application'
 apply from: 'token-replace.gradle'
 
@@ -425,3 +429,16 @@ tasks.withType(Test) {
 }
 
 apply plugin: 'com.google.gms.google-services'
+
+spotless {
+  // limit format enforcement to just the files changed by this feature branch
+  ratchetFrom 'origin/master'
+
+  java {
+    target 'src/*/java/**/*.java'
+    removeUnusedImports()
+
+    // You are running Spotless on JVM 8, which limits you to google-java-format 1.7.
+    googleJavaFormat('1.7').aosp()
+  }
+}

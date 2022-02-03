@@ -20,7 +20,7 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Run Compile Tests
-      run: ./gradlew assembleRelease
+      run: ./gradlew spotlessCheck assembleRelease
     - name: Run Unit Tests
       run: ./gradlew :app:testProdReleaseUnitTest :wear:testProdReleaseUnitTest
     - name: Check Output
