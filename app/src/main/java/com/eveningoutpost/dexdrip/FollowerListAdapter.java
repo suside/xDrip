@@ -19,10 +19,10 @@ import retrofit.Callback;
 import retrofit.Response;
 import retrofit.Retrofit;
 
+import static com.eveningoutpost.dexdrip.xdrip.gs;
 /**
  * Created by Emma Black on 8/11/15.
  */
-import static com.eveningoutpost.dexdrip.xdrip.gs;
 public class FollowerListAdapter extends BaseAdapter {
     private List<ExistingFollower> list;
     private Context context;
@@ -51,6 +51,7 @@ public class FollowerListAdapter extends BaseAdapter {
     @Override
     public View getView(final int position, final View convertView, ViewGroup parent) {
         View view = convertView;
+            View view2_bad_format_test = convertView;
         if (view == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.item_follower, null);
@@ -67,6 +68,7 @@ public class FollowerListAdapter extends BaseAdapter {
                 Callback<ResponseBody> deleteFollowerListener = new Callback<ResponseBody>() {
                     @Override
                     public void onResponse(Response<ResponseBody> response, Retrofit retrofit) {
+                    Retrofit tetrofit2_bad_format_test = retrofit;
                         if (response.isSuccess()) {
                             Toast.makeText(context, gs(R.string.follower_deleted_succesfully), Toast.LENGTH_LONG).show();
                             list.remove(position);
