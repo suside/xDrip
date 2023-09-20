@@ -5,14 +5,13 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
-import com.eveningoutpost.dexdrip.Models.APStatus;
-import com.eveningoutpost.dexdrip.Models.JoH;
-import com.eveningoutpost.dexdrip.Models.UserError;
+import com.eveningoutpost.dexdrip.models.APStatus;
+import com.eveningoutpost.dexdrip.models.JoH;
+import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.NewDataObserver;
-import com.eveningoutpost.dexdrip.UtilityModels.Constants;
-import com.eveningoutpost.dexdrip.UtilityModels.PersistentStore;
+import com.eveningoutpost.dexdrip.utilitymodels.Constants;
+import com.eveningoutpost.dexdrip.utilitymodels.PersistentStore;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import lombok.val;
@@ -90,11 +89,16 @@ public class ExternalStatusService extends IntentService {
             }
 
             if (statusline.length() > 0) {
-                final Integer percent = getTBRInt();
-                if (percent != null) {
-                    APStatus.createEfficientRecord(timestamp, percent);
+                final Double absolute = getAbsoluteBRDouble();
+                if (absolute != null) {
+                    APStatus.createEfficientRecord(timestamp, absolute);
                 } else {
-                    UserError.Log.wtf(TAG, "Could not parse TBR from: " + statusline);
+                    final Integer percent = getTBRInt();
+                    if (percent != null) {
+                        APStatus.createEfficientRecord(timestamp, percent);
+                    } else {
+                        UserError.Log.wtf(TAG, "Could not parse TBR from: " + statusline);
+                    }
                 }
             }
 
@@ -130,8 +134,22 @@ public class ExternalStatusService extends IntentService {
         } else {
             return "100%";      // if no value in status line return 100%
         }
+    }
+
+    public static String getAbsoluteBR(final String statusLine) {
+        if (JoH.emptyString(statusLine)) return "";
+        val pattern = Pattern.compile(".*(^|[^0-9.,])([0-9.,]+U/h)", Pattern.DOTALL); // match last of any number followed by units per hour
+        val matcher = pattern.matcher(statusLine);
+        val matches = matcher.find();       // was at least one found?
+
+        if (matches) {
+            return matcher.group(matcher.groupCount());    // return the last one
+        } else {
+            return null;      // if no value in status line return null
+        }
 
     }
+
 
     // I don't have test data for what this matched exactly but it doesn't work with newer strings
     // so hopefully the replacement function works as this one was also intended.
@@ -156,6 +174,11 @@ public class ExternalStatusService extends IntentService {
         return getTBR(statusLine);
     }
 
+    public static String getAbsoluteBR() {
+        final String statusLine = getLastStatusLine();
+        return getAbsoluteBR(statusLine);
+    }
+
     public static Integer getTBRInt() {
         try {
             return Integer.parseInt(getTBR().replace("%", ""));
@@ -164,5 +187,12 @@ public class ExternalStatusService extends IntentService {
         }
     }
 
+    public static Double getAbsoluteBRDouble() {
+        try {
+            return JoH.tolerantParseDouble(getAbsoluteBR().replace("U/h", ""));
+        } catch (NullPointerException | NumberFormatException e) {
+            return null;
+        }
+    }
 
 }
